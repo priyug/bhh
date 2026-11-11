@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_vendor
+    username: root
+    password: mansi
+
+
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+    ddl_auto: create
+    show-sql: true
+
